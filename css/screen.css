@@ -10,13 +10,13 @@ html {
     /*font-family: "Inter Web", "Helvetica Neue", Helvetica, arial, sans-serif;*/
     font-family: "droid-serif", Georgia, serif;
     color: #111;
-    padding: 48px 24px 24px;
+    /*padding: 48px 24px 24px;*/
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
 
 body {
-    max-width: 42em;
+    /*max-width: 42em;*/
     margin: 0 auto;
 }
 
@@ -56,6 +56,21 @@ body {
     font-size: 14px;
     font-family: "Inter", "Helvetica Neue", Helvetica, arial, sans-serif;
     line-height: 24px;
+}
+
+/* Components: Article */
+.c-article__header,
+.c-article__body {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.c-article__header {
+    padding: 24px 24px 0;
+}
+
+.c-article__body { 
+    padding: 0 24px;
 }
 
 
